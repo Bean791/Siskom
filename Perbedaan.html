@@ -5,20 +5,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- animasi -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Perbedaan</title>
   </head>
   <body>
     <!-- awal 1 -->
     <section>
         <div class="container">
+            <div class="row">
+                <div class="col">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
             <div class="row justify-content-center mt-5 ">
-                <div class="col-md-4">
+                <div class="col-md-4 " data-aos= "fade-right" data-aos-delay="350" >
                     <img src="images/tanya.svg" alt="" style="max-width: 100%;">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8"  data-aos= "fade-down-left" data-aos-delay="350" >
                     <h1 class="fs-2">Perbedaan Utama</h1>
                     <p class="fs-4">Mikrokontroler adalah perangkat pemrosesan (CPU, ROM, RAM, EEPROM, I/O) yang dibentuk menjadi satu Chip, sedangkan Mikroprosesor, hanya terdiri dari CPU dan beberapa IC dan membutuhkan tambahan komponen inti seperti (RAM, ROM, I/O, storage).
                     </p>
@@ -32,13 +44,13 @@
     <section style="background-color: #F7EEC7;">
         <div class="container">
             <div class="row justify-content-center text-center">
-                <div class="col-md-6 ">
+                <div class="col-md-6"data-aos= "fade-up" data-aos-delay="350">
                     <h1 class="fs-2">Aplikasi dan Penerapan
                     </h1>
                     <p class="fs-4">Microcontroller banyak digunakan untuk proyek sistem permanen dan IoT karena kesederhanaannya Mikroprosesor biasanya lebih kompleks dan membutuhkan komputasi yang berat, dimana membutuhkan memori dan sumber daya yang lebih besar daripada Mikrokontroler.
                     </p>
                 </div>
-                <div class="col-md-6 p-3 ">
+                <div class="col-md-6 p-3 " data-aos= "fade-left" data-aos-delay="350">
                     <img src="images/apk.svg" alt="" style="max-width: 100%;">
                 </div>
             </div>
@@ -50,10 +62,10 @@
     <section>
         <div class="container">
             <div class="row justify-content-center mt-5 mb-3 ">
-                <div class="col-md-4">
+                <div class="col-md-4"  data-aos= "flip-up" data-aos-delay="350">
                     <img src="images/kubik.svg" alt="" style="max-width: 100%;">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8" data-aos= "fade-down-left" data-aos-delay="350">
                     <h1 class="fs-2">Arsitektur</h1>
                     <p class="fs-5 text-center">Mikrokontroler menggunakan arsitektur Harvard dengan data dan instruksi diletakkan pada memori yang terpisah. Sedangkan Mikroprosesor menggunakan arsitektur Von Neumann dengan data dan instruksi terletak pada memori yang sama. sedangkan dalam arsitektur komputasi, pada Mikrokontroler, arsitektur yang digunakan yaitu 8-bit, 16-bit, atau 32-bit dan Mikroprosesor biasanya mempunyai arsitektur Arm, 32-bit atau 64-bit.
                     </p>
@@ -67,13 +79,13 @@
     <section  style="background-color: #F7EEC7;">
         <div class="container">
             <div class="row justify-content-center text-center">
-                <div class="col-md-6 ">
+                <div class="col-md-6 " data-aos= "fade-down-right" data-aos-delay="350">
                     <h1 class="fs-1">Cost
                     </h1>
                     <p class="fs-3">Dari sisi harga, Mikrokontroler memiliki harga yang jauh lebih murah, karena kecepatan yang ditawarkan tidak secepat Mikroprosesor dan tidak dapat diandalkan untuk melakukan pekerjaan kompleks. sedangkan Mikroprosesor memiliki kecepatan yang jauh lebih tinggi dan dapat diandalkan untuk melakukan pekerjaan kompleks dan bersamaan
                     </p>
                 </div>
-                <div class="col-md-6 p-3 ">
+                <div class="col-md-6 p-3 " data-aos= "flip-down" data-aos-delay="350">
                     <img src="images/gc.svg" alt="" style="max-width: 100%;">
                 </div>
             </div>
@@ -86,10 +98,10 @@
     <section>
         <div class="container">
             <div class="row justify-content-center mt-5 mb-3 ">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos= "zoom-out-down" data-aos-delay="350">
                     <img src="images/kubik.svg" alt="" style="max-width: 100%;">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8" data-aos= "flip-right" data-aos-delay="350">
                     <h1 class="fs-2">Power </h1>
                     <p class="fs-4">Jika dilihat dari sumber daya yang digunakan, Mikrokontroler menggunakan daya yang lebih kecil dan mempunyai teknologi power saving. Mikroprosesor karena komputasi yang kompleks, maka sumber daya yang diperlukan jauh lebih besar terutama jika terdapat banyak perangkat eksternal tambahan.
                     </p>
@@ -102,31 +114,33 @@
     <!-- awal 6 -->
     <section  style="background-color: #F7EEC7;">
         <div class="container">
-            <div class="row justify-content-center text-center">
+            <div class="row justify-content-center text-center" data-aos= "zoom-in-left" data-aos-delay="350">
                 <div class="col-md-6 ">
                     <h1 class="fs-1">Kinerja
                     </h1>
                     <p class="fs-3">Kecepatan Proses Mikrokontroler saat ini berkisar antara 1 Mhz - 300 Mhz, sedangkan Mikroprosesor, kecepatannya berada pada 1Ghz - 4Ghz. Kecepatan proses ini akan terus berkembang seiring berkembang pesatnya teknologi SoC (System On Chip).
                     </p>
                 </div>
-                    <div class="col-md-6 p-3 ">
+                <div class="col-md-6 p-3 " data-aos= "zoom-out" data-aos-delay="350">
                         <a href="/home.html">
                             <img src="images/gc.svg" alt="" style="max-width: 100%;">
                         </a>
-                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- akhir  -->
-    <!-- Optional JavaScript; choose one of the two! -->
+    
+
+    <!-- animasi -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+   
   </body>
 </html>
