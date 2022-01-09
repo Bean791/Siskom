@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-
+    <!-- animasi -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Siskom MicroController</title>
   </head>
   <body id="home">
@@ -26,6 +27,9 @@
               <a class="nav-link" href="#materi">Materi</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="https://docs.google.com/presentation/d/1MOcmJymoxs_ZO11m2iU3uVux6DAGIBKs3vRR9y3fdxM/edit?usp=sharing">PPT</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#penutupan">Penutupan</a>
             </li>
           </ul>
@@ -34,10 +38,10 @@
     </nav>
     <!-- Pengenalan  -->
     <section class="jumbotron text-center mt-5" style="padding: 2rem 1rem; background-color: #f7eec7; font-family: 'Fuzzy Bubbles', cursive">
-      <h1 class="display-4">Micro Controller</h1>
-      <h3>Pengenalan</h3>
-      <h4>Ketua || Anggota</h4>
-      <p>Robin || Peter | John | Aldwin</p>
+      <h1 class="display-4" id="awal">Pembukaan</h1>
+      <h3 id="b1">Saya Robin</h3>
+      <h4 id="b2">Pertama - tama ijinkan saya mengatakan</h4>
+      <p id="b3">Selamat Datang Di Web  Kelompok 1 </p>
     </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#f7eec7" fill-opacity="1" d="M0,96L0,96L288,96L288,160L576,160L576,256L864,256L864,64L1152,64L1152,160L1440,160L1440,0L1152,0L1152,0L864,0L864,0L576,0L576,0L288,0L288,0L0,0L0,0Z"></path>
@@ -48,14 +52,14 @@
       <div class="container">
         <div class="row text-center mb-5 p-5 justify-content-center">
           <div class="col md-5">
-            <h1>Materi</h1>
+            <h1 id="mat" style="color: rgb(90, 90, 90);">Materi</h1>
           </div>
         </div>
         <div class="container">
           <div class="row justify-content-center text-center mb-5 p-4">
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3"  data-aos= "fade-right" data-aos-delay="350">
               <div class="card" style="width: 18rem">
-                <img src="https://source.unsplash.com/900x500?Microcontroller" class="card-img-top" alt="..." />
+                <img src="https://source.unsplash.com/900x500?Cpu" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Pengertian</h5>
                   <p class="card-text">Pengertian Mikrokontroler merupakan perangkat komputer yang dikemas ...</p>
@@ -83,7 +87,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-3 col-sm-12">
+            <div class="col-md-4 mb-3 col-sm-12" data-aos= "fade-down" data-aos-delay="350">
               <div class="card" style="width: 18rem">
                 <img src="https://source.unsplash.com/900x500?electronics Component" class="card-img-top" alt="..." />
                 <div class="card-body">
@@ -93,9 +97,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3" data-aos= "fade-left" data-aos-delay="350">
               <div class="card" style="width: 18rem">
-                <img src="https://tse2.mm.bing.net/th?id=OIP.uryiLcwLiHaXs4G9TUUAcAHaCn&pid=Api&P=0&w=473&h=167" class="card-img-top" alt="..." />
+                <img src="https://source.unsplash.com/900x500?cpu type" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Jenis - Jenis || Fungsi</h5>
                   <p class="card-text">Adapun jenis-jenis serta fungsi dari Mikrokontroler sebagai berikut</p>
@@ -103,19 +107,19 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3" data-aos= "fade-up-right" data-aos-delay="350">
               <div class="card" style="width: 18rem">
-                <img src="https://tse2.mm.bing.net/th?id=OIP.JTULKX0N-OAAeOocFU0rpQHaEK&pid=Api&P=0&w=300&h=168" class="card-img-top" alt="..." />
+                <img src="https://source.unsplash.com/900x500?electronics difference" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Perbedaan</h5>
+                  <h5 class="card-title">Perdedaan</h5>
                   <p class="card-text">Mikrokontroler adalah perangkat pemrosesan (CPU, ROM, RAM, EEPROM, I/O) ...</p>
                   <a href="/Siskom/Perbedaan" class="btn btn-warning">Detail</a>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3" data-aos= "fade-up-left" data-aos-delay="350">
               <div class="card" style="width: 18rem">
-                <img src="https://miro.medium.com/max/1200/1*4TCjvVsd91hdeh0h1pKjiQ.jpeg" class="card-img-top" alt="..." />
+                <img src="https://source.unsplash.com/900x500?electronics excess" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Kelebihan dan Kekurangan</h5>
                   <p class="card-text">Mikrokontroler mempunyai bagian bagian yang membentuk satu kesatuan sistem.</p>
@@ -178,11 +182,6 @@
         </div>
       </div>
     </section>
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
     <!-- dark mode -->
     <script src="js/darkmode-js.js"></script>
     <script>
@@ -193,5 +192,26 @@
         label: '🌓'
       }).showWidget();
     </script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Animasi g -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.to("#awal", {duration: 3, text: "Micro Controller", delay: 5});
+      gsap.to("#b1", {duration: 3, text: "Pengenalan", delay: 8});
+      gsap.to("#b2", {duration: 4, text: "Ketua || Anggota", delay: 11});
+      gsap.to("#b3", {duration: 5, text: "Robin || Peter | John | Aldwin", delay: 15});
+    </script>
+    <script>
+      gsap.to("#mat", { duration: 1, ease: "bounce.out", y: "45" , delay:20});
+    </script>
+     <!-- animasi -->
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
   </body>
 </html>
